@@ -9,7 +9,7 @@ This project automates the testing of the Chat Sinhala transliteration function 
 ## 1. Project Structure
 ```text
 test_automation/
-├── IT23861718_Assignment1.xlsx
+├── Assignment 1 - Test cases.xlsx
 ├── test_automation.py
 ├── Command.txt
 └── README.md
@@ -32,7 +32,7 @@ playwright install
 ## 4. How to Run the Tests
 Run this command from the `test_automation` folder:
 ```bash
-python test_automation.py --excel "IT23861718_Assignment1.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 8000 --type-delay-ms 80 --slow-mo-ms 300 --save-every 1 --keep-open
+python test_automation.py --excel "Assignment 1 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 8000 --type-delay-ms 80 --slow-mo-ms 300 --save-every 1 --keep-open
 ```
 
 ## 5. What the Script Does
@@ -43,7 +43,7 @@ python test_automation.py --excel "IT23861718_Assignment1.xlsx" --url "https://w
 - Records Pass or Fail status in the Excel file automatically.
 
 ## 6. Test Results
-- Results are saved automatically in `IT23861718_Assignment1.xlsx`.
+- Results are saved automatically in `Assignment 1 - Test cases.xlsx`.
 - Actual output and Status columns are filled automatically.
 - All 50 test cases are negative test cases (expected to Fail).
 
