@@ -30,9 +30,24 @@ playwright install
 ```
 
 ## 4. How to Run the Tests
-Run the following command from the project's root directory:
+You can run the test automation script in different ways depending on your needs.
+
+### Basic Execution
+To run the script with default settings (which will open a browser window), use this command:
 ```bash
 python test_automation.py
+```
+
+### Running with a Visible Browser
+To explicitly run the tests and see the browser automation in action, use the following command. This is useful for debugging.
+```bash
+python test_automation.py --excel "IT23861718_Assignment1.xlsx" --url "https://www.pixelssuite.com/chat-translator"
+```
+
+### Running in Headless Mode
+For faster execution without a visible browser window, run the script in headless mode. This is ideal for automated environments.
+```bash
+python test_automation.py --excel "IT23861718_Assignment1.xlsx" --url "https://www.pixelssuite.com/chat-translator" --headless
 ```
 
 ## 5. What the Script Does
